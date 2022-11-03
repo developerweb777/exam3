@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fonts css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="icon" href="./pitsa.jpg" type="image/x-icon" />
+    <title>exam</title>
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal_wrapper">
+        <div class="modal_wrapper_x">&times;</div>
+        <i class="fa fa-check" id="check"></i>
+        
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <h2 class="nav_logo">Pizza</h2>
+          <ul class="nav_ul">
+            <li class="nav_ul_li">Menu</li>
+            <li class="nav_ul_li">Location</li>
+            <li class="nav_ul_li">Contact</li>
+          </ul>
+          <i class="hamburger bi bi-justify"></i>
+          <!-- <img class="hamburger" src="./img/facebook-img.svg" alt=""> -->
+        </nav>
+      </div>
+    </header>
+    <main class="main container">
+      <div class="all_wrapper">
+        <section class="section">
+          <h2 class="section_h2">Pitsa buyurtma qilish</h2>
+        </section>
+        <div class="chap_wrapper">
+          <div class="turi">
+            <h3 class="turi_h2">noni qanday bolsin</h3>
+            <select class="select"  name="" id="">
+              <option value="bosh" selected disabled>non turini tanlang</option>
+              <option value="yupqa">yupqa</option>
+              <option value="ortacha">ortacha</option>
+              <option value="qalin">qalin</option>
+            </select>
+          </div>
+          <div class="katta">
+            <h2 class="katta_h2">kattaligi</h2>
+            <div class="buttons">
+              <button value="25sm" class="button button1">25sm</button>
+              <button value="30sm" class="button button2">30sm</button>
+              <button value="35sm" class="button button3">35sm</button>
+            </div>
+          </div>
+          <span>
+            <h3 class="checkbox_h3">ustiga nima solaylik</h3>
+          </span>
+          <div class="checkbox_wrapper">
+            <div class="chap">
+              <span class="pomidor">
+                <input value="pomidor" class="pomidor_input" type="checkbox" />
+                <label class="pomidor_label" for="vehicle1"> pomidor</label><br />
+              </span>
+              <span class="kurka_span">
+                <input value="kurka_gush" class="kurka_input" type="checkbox" />
+                <label class="kurka_label" for="vehicle2">kurka gushti</label
+                ><br />
+              </span>
+              <span class="zaytun_span">
+                <input value="zaytun" class="zaytun_input" type="checkbox" />
+                <label class="zaytun_label" for="vehicle3"> zaytun</label><br />
+              </span>
+            </div>
+            <div class="ong">
+              <span class="bodring_span">
+                <input value="bodring" class="bodring_input" type="checkbox" />
+                <label class="bodring_label" for="vehicle1">
+                  tuzlangan bodring</label
+                ><br />
+              </span>
+              <span class="qozi_span">
+                <input value="qo'ziqorin" class="qozi_input" type="checkbox" />
+                <label class="qozi_label" for="vehicle2">qo'ziqorin</label><br />
+              </span>
+              <span class="qazi_span">
+                <input value="qazi" class="qazi_input" type="checkbox" />
+                <label class="qazi_label" for="vehicle3"> qazi</label><br />
+              </span>
+            </div>
+          </div>
+          <div class="qoshimcha">
+            <h3 class="qoshimcha_h3">qo shimchalar</h3>
+            <div class="qoshimcha_chekbox">
+              <span class="achciq_span">
+                <input value="achchiq" class="achchiq_input" type="checkbox" />
+                <label class="achchiq_label" for="vehicle2">achchiq</label><br />
+              </span>
+              <span class="span_sosiska">
+                <input
+                  class="input_sosiska"
+                  value="sasiskali"
+                  class="inpat"
+                  type="checkbox"
+                />
+                <label class="label_sosiska" for="vehicle3">sasiskali</label
+                ><br />
+              </span>
+            </div>
+          </div>
+          <hr class="hr" />
+        </div>
+        <div class="ong_wrapper">
+         <span class="span_non">
+          <h3 class="ong_h3">non</h3>
+          <p class="stc non_p"></p>
+         </span>
+          <span class="span_katta">
+            <h3 class="ong_kattaligi">kattaligi</h3>
+          <p class="stc katta_p"></p>
+          </span>
+          <h3 class="ong_ustida">ustida</h3>
+          <p class="stc ustida_pomidor"></p>
+          <p class="stc ustida_kurka"></p>
+          <p class="stc ustida_zaytun"></p>
+          <p class="stc ustida_bodring"></p>
+          <p class="stc ustida_qozi"></p>
+          <p class="stc ustida_qazi"></p>
+  
+          <h3 class="ong_qoshimcha">qoshimcha</h3>
+          <p class="stc qoshimcha_achchiq"></p>
+          <p class="stc qoshimcha_sosiska"></p>
+          <button class="ong_btn">buyurtma berish</button>
+        </div>
+      </div>
+      
+    </main>
+    <footer class="footer">
+
+      <div class="container">
+       <div class="text">
+        <h3 class="footer_h3">Bizni kuzatib boring</h3>
+        <span class="footer_span">
+         <img src="./img/facebook-img.svg" alt="">
+         <img src="./img/imstagram-img.svg" alt="">
+         <img src="./img/twitter-img.svg" alt="">
+        </span>
+        </div>
+       </div>
+    </footer>
+
+    <script defer src="./index.js"></script>
+  </body>
+</html>
